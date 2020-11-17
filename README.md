@@ -19,4 +19,4 @@ Single stitched orthomosaic.
     - **Output directory:** '-o', '--outdir', default='stitched_ortho_out/'
                                         
 ## Executing example (using singularity)
-singularity run -B $(pwd):/mnt --pwd /mnt/ docker://cosimichele/flirfieldplot -o <out_dir> -d <scan_date> <tif_dir>
+singularity run -B $(pwd):/mnt --pwd /mnt/ docker://phytooracle/flir_field_stitch -o <out_dir> -d <scan_date> <tif_dir>
