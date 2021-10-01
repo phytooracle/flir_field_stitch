@@ -6,7 +6,7 @@ Purpose: Create a stitched "ortho" for the flir imaegs
 """
 
 import argparse
-import cv2
+#import cv2
 import sys
 import os
 import uuid
